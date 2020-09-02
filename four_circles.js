@@ -1,10 +1,5 @@
 var round = 0;
 var table = $('.board');
-var winner = false;
-var code1 = true;
-var code2 = true;
-var code3 = true;
-var pass = 0;
 
 //returns the color of that row and column
 function getColor(row,col){
